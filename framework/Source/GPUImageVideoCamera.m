@@ -85,7 +85,7 @@ void setColorConversion709( GLfloat conversionMatrix[9] )
 	_frameRate = 0; // This will not set frame rate unless this value gets set to 1 or above
     _runBenchmark = NO;
     capturePaused = NO;
-    outputRotation = kGPUImageRotateRight;
+    outputRotation = kGPUImageRotate180;
     internalRotation = kGPUImageNoRotation;
     captureAsYUV = NO;
     _preferredConversion = kColorConversion709;
